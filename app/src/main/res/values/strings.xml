@@ -1,0 +1,229 @@
+<resources>
+    <string name="app_name">projectK</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string-array name = "location">
+        <item>서울</item>
+        <item>인천</item>
+        <item>대전</item>
+        <item>세종</item>
+        <item>대구</item>
+        <item>울산</item>
+        <item>부산</item>
+        <item>광주</item>
+    </string-array>
+    <string-array name = "URl1">
+        <item>서울</item>
+        <item>https://www.incheon.go.kr/covid19/index</item>
+        <item>https://corona.daejeon.go.kr/index.do?menuId=0008</item>
+        <item>세종</item>
+        <item>대구</item>
+        <item>울산</item>
+        <item>부산</item>
+        <item>https://www.gwangju.go.kr/c19/contentsView.do?pageId=corona30</item>
+    </string-array>
+    <string-array name = "list_size">
+        <item>서울</item>
+        <item>div [id=tab2] table[class=table-list]</item>
+        <item>table[class=corona]</item>
+        <item>세종</item>
+        <item>대구</item>
+        <item>울산</item>
+        <item>부산</item>
+        <item>table[class=tb_default]</item>
+    </string-array>
+    <string-array name = "unit">
+        <item>서울</item>
+        <item>tr</item>
+        <item>tr</item>
+        <item>세종</item>
+        <item>대구</item>
+        <item>울산</item>
+        <item>부산</item>
+        <item>tr</item>
+    </string-array>
+    <string-array name = "district">
+        <item>서울</item>
+        <item>tr td:nth-child(2)</item>
+        <item>tr td:nth-child(1)</item>
+        <item>세종</item>
+        <item>대구</item>
+        <item>울산</item>
+        <item>부산</item>
+        <item>tr td:nth-child(3)</item>
+    </string-array>
+    <string-array name = "facility">
+        <item>서울</item>
+        <item>tr td:nth-child(3)</item>
+        <item>tr td:nth-child(2) p</item>
+        <item>세종</item>
+        <item>대구</item>
+        <item>울산</item>
+        <item>부산</item>
+        <item>tr td:nth-child(4)</item>
+    </string-array>
+    <string-array name = "brand">
+        <item>서울</item>
+        <item>tr td:nth-child(4)</item>
+        <item>tr td:nth-child(3) p</item>
+        <item>세종</item>
+        <item>대구</item>
+        <item>울산</item>
+        <item>부산</item>
+        <item>tr td:nth-child(5)</item>
+    </string-array>
+    <string-array name = "address">
+        <item>서울</item>
+        <item>tr td:nth-child(5)</item>
+        <item>tr td:nth-child(4) p</item>
+        <item>세종</item>
+        <item>대구</item>
+        <item>울산</item>
+        <item>부산</item>
+        <item>tr td:nth-child(6)</item>
+    </string-array>
+    <string-array name = "visitTime">
+        <item>서울</item>
+        <item>tr td:nth-child(6) </item>
+        <item>tr td:nth-child(5)  p:nth-child(1)</item>
+        <item>세종</item>
+        <item>대구</item>
+        <item>울산</item>
+        <item>부산</item>
+        <item>tr td:nth-child(1)</item>
+    </string-array>
+    <string-array name = "visitTime2">
+        <item>서울</item>
+        <item>인천</item>
+        <item>tr td:nth-child(5)  p</item>
+        <item>세종</item>
+        <item>대구</item>
+        <item>울산</item>
+        <item>부산</item>
+        <item>tr td:nth-child(1)</item>
+    </string-array>
+    <string-array name = "disinfection">
+        <item>서울</item>
+        <item>tr td:nth-child(7) </item>
+        <item>tr td:nth-child(6)  p</item>
+        <item>세종</item>
+        <item>대구</item>
+        <item>울산</item>
+        <item>부산</item>
+        <item>tr td:nth-child(7)</item>
+    </string-array>
+
+
+    <string-array name = "URl2">
+        <item>서울</item>
+        <item>https://www.incheon.go.kr/covid19/index</item>
+        <item>https://corona.daejeon.go.kr/index.do</item>
+        <item>https://www.sejong.go.kr/covid19/sub01_0901.do</item>
+        <item>대구</item>
+        <item>울산</item>
+        <item>부산</item>
+        <item>광주</item>
+    </string-array>
+    <string-array name = "korea_total">
+        <item>서울</item>
+        <item>div [class=covid-contents__column scroll-tbl-wrap]:nth-child(3) tr:nth-child(2) td:nth-child(2)</item>
+        <item>div [class=corona-2] ul:nth-child(1) li:nth-child(1) div:nth-child(2)</item>
+        <item>div [class=covid_sub0109_time] span</item>
+        <item>대구</item>
+        <item>울산</item>
+        <item>부산</item>
+        <item>광주</item>
+    </string-array>
+    <string-array name = "basetime">
+        <item>서울</item>
+        <item>div [class = covid-contents__column] p b</item>
+        <item>div [class=contents] h3:nth-child(1) span:nth-child(2)</item>
+        <item>div [class=date]</item>
+        <item>대구</item>
+        <item>울산</item>
+        <item>부산</item>
+        <item>광주</item>
+    </string-array>
+    <string-array name = "total">
+        <item>서울</item>
+        <item>div [class=covid-contents__column] tr:nth-child(2) td:nth-child(1)</item>
+        <item>div [class=contents dj_list] tr:nth-child(1) td:nth-child(2) strong</item>
+        <item>div [class=covid_sub0109_count covid_count_skin1] span</item>
+        <item>대구</item>
+        <item>울산</item>
+        <item>부산</item>
+        <item>광주</item>
+    </string-array>
+    <string-array name = "release">
+        <item>서울</item>
+        <item>div [class=covid-contents__column] tr:nth-child(2) td:nth-child(3)</item>
+        <item>div [class=contents dj_list] tr:nth-child(1) td:nth-child(3) strong</item>
+        <item>세종</item>
+        <item>대구</item>
+        <item>울산</item>
+        <item>부산</item>
+        <item>광주</item>
+    </string-array>
+    <string-array name = "isolate">
+        <item>서울</item>
+        <item>div [class=covid-contents__column] tr:nth-child(2) td:nth-child(4)</item>
+        <item>div [class=contents dj_list] tr:nth-child(1) td:nth-child(4) strong</item>
+        <item>세종</item>
+        <item>대구</item>
+        <item>울산</item>
+        <item>부산</item>
+        <item>광주</item>
+    </string-array>
+    <string-array name = "rip">
+        <item>서울</item>
+        <item>div [class=covid-contents__column] tr:nth-child(2) td:nth-child(5)</item>
+        <item>div [class=contents dj_list] tr:nth-child(1) td:nth-child(5) strong</item>
+        <item>세종</item>
+        <item>대구</item>
+        <item>울산</item>
+        <item>부산</item>
+        <item>광주</item>
+    </string-array>
+    <string-array name = "total_before">
+        <item>서울</item>
+        <item>div [class=covid-contents__column] tr:nth-child(2) td:nth-child(2)</item>
+        <item>div [class=contents dj_list] tr:nth-child(2) td:nth-child(2) strong</item>
+        <item>세종</item>
+        <item>대구</item>
+        <item>울산</item>
+        <item>부산</item>
+        <item>광주</item>
+    </string-array>
+    <string-array name = "release_before">
+        <item>서울</item>
+        <item>인천</item>
+        <item>div [class=contents dj_list] tr:nth-child(2) td:nth-child(3) strong</item>
+        <item>세종</item>
+        <item>대구</item>
+        <item>울산</item>
+        <item>부산</item>
+        <item>광주</item>
+    </string-array>
+    <string-array name = "isolate_before">
+        <item>서울</item>
+        <item>인천</item>
+        <item>div [class=contents dj_list] tr:nth-child(2) td:nth-child(4) strong</item>
+        <item>세종</item>
+        <item>대구</item>
+        <item>울산</item>
+        <item>부산</item>
+        <item>광주</item>
+    </string-array>
+    <string-array name = "rip_before">
+        <item>서울</item>
+        <item>인천</item>
+        <item>div [class=contents dj_list] tr:nth-child(2) td:nth-child(5) strong</item>
+        <item>세종</item>
+        <item>대구</item>
+        <item>울산</item>
+        <item>부산</item>
+        <item>광주</item>
+    </string-array>
+</resources>
